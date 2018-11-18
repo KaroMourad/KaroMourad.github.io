@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Karapet Mouradyan</title>
+	<link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="personalpage.css">
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+</head>
+<body class="h-screen overflow-auto overflow-x-hidden" >
+	<header class="bg-black text-white py-4" id="myheader">
+		<div class="container flex items-center justify-between mx-auto px-2">
+			<div class="flex justify-content ">
+				<h1 class="mb-2 md:mb-0 text-4xl content-center">Welcome To My Page</h1>
+			</div>
+			
+
+			<div class="container w-32 h-32 mx-5 py-3 " id="img-container "> 
+				<img src="kar.jpg" class="rounded-full">
+			</div>
+
+			<ul class=" md:flex md:items-center list-reset md:text-2xl ">
+				<li class="md:ml-6">
+					<a class="sectionEd block  no-underline py-2 md:py-0 text-white hover:text-grey-light " href="#">
+						<p class="sec">Education</p>
+					</a>
+				</li>
+				<li class="md:ml-6">
+					<a class="sectionAb block  no-underline py-2 md:py-0 text-white hover:text-grey-light" href="#">
+						<p class="sec">About Me</p>
+					</a>
+				</li>
+				<li class="md:ml-6">
+					<a class="sectionCon block no-underline py-2 md:py-0 text-white hover:text-grey-light" href="#">
+						<p class="sec">Contact</p>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</header>
+
+	<div class="parallax" >
+		<h1 class="anun content-center ">Karapet Mouradyan</h1>
+	</div>
+	
+	<div class="education">
+		<h2 class="ed text-black content-center ">
+			Education
+		</h2>
+		<div class="flex w-screen my-16 justify-between">
+			<div class="contlogo mx-2 w-1/4 ">
+				<a href="http://fizmat.am/" class="no-underline text-black" target="_blank">
+					<img src="FizmatLogo.jpg" class="edlogo flex items-center m-auto xl:h-64 ">
+					<h3 class="my-10 flex justify-center text-center text-2xl">Physics and Mathematics Specialized School named after Artashes Shahinyan <br/>2008-2012</h3>
+				</a>
+			</div>
+			<div class="contlogo mx-2 w-1/4 ">
+				<a href="http://www.rau.am/rus/" class="no-underline text-black" target="_blank">
+					<img src="raulogo.jpg" class="edlogo flex items-center m-auto xl:h-64 ">
+					<h3 class="my-10 flex justify-center text-center text-2xl">Russian-Armenian University<br/>2012-2016</h3>
+				</a>
+			</div>
+			<div class="contlogo mx-2 w-1/4 ">
+				<a href="http://www.aca.am/" class="no-underline text-black" target="_blank">
+					<img src="acalogo.jpg" class="edlogo flex items-center m-auto xl:h-64">
+					<h3 class="my-10 flex justify-center text-center text-2xl">Armenian Code Academy<br/>2018 - still now</h3>
+				</a>
+			</div>
+		</div>
+	</div>
+	
+	<div class="aboutme">
+			<h2 class="ed text-black content-center">
+				About Me
+			</h2>
+	</div>
+	<div class="parallax1 flex justify-content" >
+		<div class="m-auto">
+			<p class=" my-10 mx-10 md:text-3xl text-center text-white tracking-wide leading-loose">
+				Young Programming Enthusiast, born in 1994, served in the RA Army from 2016 to 2018. I am into Programming: Html, CSS, Javascript, React, currently studying for Master’s degree in Physics. I Know Armenian, Russian, English. Have a problem-solving mindset and quantitative skills.
+			</p>	
+		</div>		
+	</div>
+	
+
+	<div class="contact">
+		<h2 class="ed text-black content-center">
+			Contact
+		</h2>
+		
+		<div class="bg-black lg:text-3xl text-center text-white">
+			<h3 class="mx-10 ">Email : <a href="#" class=" hover:text-grey no-underline text-white"><p class="contacthov">karapetmouradyan@gmal.com </p></a></h3>
+			<h3 class="my-10 mx-10 ">Github Profile :  <a href="#" class=" hover:text-grey no-underline text-white"><p class="contacthov">KaroMourad</p></a></h3>
+			<h3 class="my-10 mx-10 ">Phone Number : <p class="contacthov">+374 (0)99-92-02-01</p></h3>
+		</div>
+	</div>
+	<div class="scrollT w-16 h-16">
+		<img src="btp.jpg">
+	</div>
+	<script src="personalpage.js"></script>
+</body>
+</html>

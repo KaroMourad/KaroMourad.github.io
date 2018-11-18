@@ -1,0 +1,90 @@
+
+
+h1,h2,.ed,h3,p {
+	font-family: 'Lobster', cursive;
+}
+
+.parallax {
+	background: url('photo-1.jpg') no-repeat center;
+	background-size: cover;
+	height: 36rem;
+	background-attachment: fixed;
+}
+
+.parallax1 {
+	background: url('photo-2.jpg') no-repeat center;
+	background-size: cover;
+	height: 36rem;
+	background-attachment: fixed;
+}
+
+.anun {
+	height: 32rem;
+	font-family: 'Lobster', cursive;
+	font-size: 6rem;
+	text-align: center;
+	color: white;
+	display: grid;
+}
+::-webkit-scrollbar {
+    width: .5rem;
+}
+
+::-webkit-scrollbar-track {
+    background: #888;
+    height: 50%;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #494949;
+    border-radius: 5%;
+    height: 50%;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #333333;
+}
+
+
+.ed{
+	font-weight: normal;
+	margin-top:  2rem;
+	font-size: 5rem;
+	text-align: center;
+}
+
+.edlogo {
+	border-radius: 50%;
+}
+
+/*.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}*/
+
+
+.contlogo,.contacthov,.sec {
+	transition:0.5s;
+}
+
+.contlogo:hover {
+	transform: scale(1.08);
+}
+
+.contacthov:hover,.sec:hover {
+	transform: scale(1.38);
+}
+
+.scrollT{
+	position : fixed;
+	border-radius: 50%;
+	right: 3%;
+	bottom: 2%;
+	opacity: 0;
+	transition: 0.3s;
+}
+
+.scrollT:hover{
+	transform: scale(1.08);
+}
