@@ -1,6 +1,6 @@
 
 
-h1,h2,.ed,h3,p {
+h1,h2,.ed,h3 {
 	font-family: 'Lobster', cursive;
 }
 
@@ -65,15 +65,11 @@ h1,h2,.ed,h3,p {
 
 
 .contlogo,.contacthov,.sec {
-	transition:0.5s;
+	transition: 0.4s;
 }
 
-.contlogo:hover {
-	transform: scale(1.08);
-}
-
-.contacthov:hover,.sec:hover {
-	transform: scale(1.23);
+.contacthov:hover,.sec:hover,.contlogo:hover {
+	transform: scale(1.33);
 }
 
 .scrollT{
