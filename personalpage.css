@@ -1,7 +1,7 @@
 
 
 h1,h2,.ed,h3 {
-	font-family: 'Lobster', cursive;
+	font-family: 'Archivo Black', sans-serif;
 }
 
 .parallax {
@@ -86,22 +86,22 @@ h1,h2,.ed,h3 {
 }
 
 .wig1 {
-	animation: wiggle 7s infinite;
+	animation: wiggle 21s infinite;
 }
 
 .wig2 {
-	animation: wiggle 3s infinite;
+	animation: wiggle 15s infinite;
 }
 
 .wig3 {
-	animation: wiggle 5s infinite;
+	animation: wiggle 11s infinite;
 }
 
 @keyframes wiggle {
 	0%{transform: rotate(0deg);}
-	5%{transform: rotate(-10deg);}
-	15%{transform: rotate(10deg);}
-	30%{transform: rotate(0deg);}
+	3%{transform: rotate(-7deg);}
+	5%{transform: rotate(7deg);}
+	7%{transform: rotate(0deg);}
 	100%{transform: rotate(0deg);}
 }
 
