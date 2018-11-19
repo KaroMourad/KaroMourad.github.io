@@ -85,3 +85,80 @@ h1,h2,.ed,h3 {
 	transform: scale(1.08);
 }
 
+.wig1 {
+	animation: wiggle 7s infinite;
+}
+
+.wig2 {
+	animation: wiggle 3s infinite;
+}
+
+.wig3 {
+	animation: wiggle 5s infinite;
+}
+
+@keyframes wiggle {
+	0%{transform: rotate(0deg);}
+	5%{transform: rotate(-10deg);}
+	15%{transform: rotate(10deg);}
+	30%{transform: rotate(0deg);}
+	100%{transform: rotate(0deg);}
+}
+
+
+.pulse1 {
+	animation: pulst 3s linear infinite;
+}
+
+@keyframes pulst {
+	0% {
+		box-shadow: 0 0 0 0 rgb(128, 159, 255,.7),0 0 0 0 rgb(128, 159, 255,.7);
+	}
+	40% {
+		box-shadow: 0 0 0 30px rgb(128, 159, 255,0),0 0 0 0 rgb(128, 159, 255,.7);
+	}
+	80% {
+		box-shadow: 0 0 0 30px rgb(128, 159, 255,0),0 0 0 20px rgb(128, 159, 255,0);
+	}
+	100% {
+		box-shadow: 0 0 0 0 rgb(128, 159, 255,0),0 0 0 20px rgb(128, 159, 255,0);
+	}
+}
+
+.pulse3 {
+	animation: pulsf 3s linear infinite;
+}
+
+@keyframes pulsf {
+	0% {
+		box-shadow: 0 0 0 0 rgb(0, 64, 255,.7),0 0 0 0 rgb(0, 64, 255,.7);
+	}
+	40% {
+		box-shadow: 0 0 0 30px rgb(0, 64, 255,0),0 0 0 0 rgb(0, 64, 255,.7);
+	}
+	80% {
+		box-shadow: 0 0 0 30px rgb(0, 64, 255,0),0 0 0 20px rgb(0, 64, 255,0);
+	}
+	100% {
+		box-shadow: 0 0 0 0 rgb(0, 64, 255,0),0 0 0 20px rgb(0, 64, 255,0);
+	}
+}
+
+.pulse2 {
+	animation: pulsg 3s linear infinite;
+}
+
+@keyframes pulsg {
+	0% {
+		box-shadow: 0 0 0 0 rgb(143, 0, 179,.7),0 0 0 0 rgb(143, 0, 179,.7);
+	}
+	40% {
+		box-shadow: 0 0 0 30px rgb(143, 0, 179,0),0 0 0 0 rgb(143, 0, 179,.7);
+	}
+	80% {
+		box-shadow: 0 0 0 30px rgb(143, 0, 179,0),0 0 0 20px rgb(143, 0, 179,0);
+	}
+	100% {
+		box-shadow: 0 0 0 0 rgb(143, 0, 179,0),0 0 0 20px rgb(143, 0, 179,0);
+	}
+}
