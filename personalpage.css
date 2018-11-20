@@ -64,12 +64,15 @@ h1,h2,.ed,h3 {
 }*/
 
 
-.contlogo,.contacthov,.sec {
+.contlogo,.contacthov,.sec,.contacthovlit {
 	transition: 0.4s;
 }
 
 .contacthov:hover,.sec:hover,.contlogo:hover {
 	transform: scale(1.33);
+}
+.contacthovlit:hover {
+	transform: scale(1.15);
 }
 
 .scrollT{
@@ -82,7 +85,7 @@ h1,h2,.ed,h3 {
 }
 
 .scrollT:hover{
-	transform: scale(1.08);
+	transform: scale(1.18);
 }
 
 .wig1 {
@@ -160,5 +163,24 @@ h1,h2,.ed,h3 {
 	}
 	100% {
 		box-shadow: 0 0 0 0 rgb(143, 0, 179,0),0 0 0 20px rgb(143, 0, 179,0);
+	}
+}
+
+.pulse {
+	animation: puls 5s linear infinite;
+}
+
+@keyframes puls {
+	0% {
+		box-shadow: 0 0 0 0 rgb(128, 159, 255,0),0 0 0 0 rgb(128, 159, 255,0);
+	}
+	50% {
+		box-shadow: 0 0 0 30px rgb(128, 159, 255,0),0 0 0 0 rgb(128, 159, 255,.7);
+	}
+	70% {
+		box-shadow: 0 0 0 30px rgb(128, 159, 255,0),0 0 0 20px rgb(128, 159, 255,0);
+	}
+	100% {
+		box-shadow: 0 0 0 0 rgb(128, 159, 255,0),0 0 0 20px rgb(128, 159, 255,0);
 	}
 }
