@@ -8,14 +8,12 @@ h1,h2,.ed,h3 {
 	background: url('photo-1.jpg') no-repeat center;
 	background-size: cover;
 	height: 36rem;
-	background-attachment: fixed;
 }
 
 .parallax1 {
 	background: url('photo-2.jpg') no-repeat center;
 	background-size: cover;
 	height: 36rem;
-	background-attachment: fixed;
 }
 
 .anun {
