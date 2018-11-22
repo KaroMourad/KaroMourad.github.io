@@ -1,11 +1,10 @@
-
-
 h1,h2,.ed,h3 {
 	font-family: 'Archivo Black', sans-serif;
 }
 
 .parallax {
 	background: url('photo-1.jpg') no-repeat center;
+	background-attachment: fixed;
 	background-size: cover;
 	height: 48rem;
 	width: 100%;
@@ -13,6 +12,7 @@ h1,h2,.ed,h3 {
 
 .parallax1 {
 	background: url('photo-2.jpg') no-repeat center;
+	background-attachment: fixed;
 	background-size: cover;
 	height: 36rem;
 	width: 100%;
@@ -20,11 +20,11 @@ h1,h2,.ed,h3 {
 
 .anun {
 	height: 36rem;
-	font-family: 'Lobster', cursive;
-	font-size: 6rem;
+	font-size: 8.5vw;
 	text-align: center;
 	color: white;
 	display: grid;
+	transform: translateY(8rem);
 }
 ::-webkit-scrollbar {
     width: .5rem;
@@ -45,11 +45,13 @@ h1,h2,.ed,h3 {
     background: #333333;
 }
 
-
+.chap {
+	font-size: 2vw;
+}
 .ed{
 	font-weight: normal;
 	margin-top:  2rem;
-	font-size: 5rem;
+	font-size: 9vw;
 	text-align: center;
 }
 
@@ -64,15 +66,18 @@ h1,h2,.ed,h3 {
 }*/
 
 
-.contlogo,.contacthov,.sec,.contacthovlit {
+.contlogo,.contacthov,.sec,.contacthovlit,.welcome {
 	transition: 0.4s;
 }
 
 .contacthov:hover,.sec:hover,.contlogo:hover {
-	transform: scale(1.25);
+	transform: scale(1.2);
 }
-.contacthovlit:hover {
+.contacthovlit:hover{
 	transform: scale(1.15);
+}
+.welcome:hover {
+	transform: scale(1.05);
 }
 
 .scrollT{

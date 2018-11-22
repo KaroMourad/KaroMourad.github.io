@@ -6,7 +6,7 @@ let ed = document.getElementById("education");
 let ab = document.getElementById("about");
 let co = document.getElementById("contact");
 let body = document.body;
-let minheader ;
+let welcome = document.querySelector(".welcome");
 
 sectionEduc.addEventListener('click', function(event) {
 	event.preventDefault();
@@ -27,7 +27,15 @@ sectionAbout.addEventListener('click', function(event) {
 sectionContact.addEventListener('click', function(event) {
 	event.preventDefault();
 	window.scrollTo({
-		top: co.offsetTop,
+		top: co.offsetTop-100,
+		behavior: "smooth"
+	});
+});
+
+welcome.addEventListener('click', function(event) {
+	event.preventDefault();
+	window.scrollTo({
+		top: body.offsetTop,
 		behavior: "smooth"
 	});
 });
