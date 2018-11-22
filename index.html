@@ -9,14 +9,14 @@
 	<link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet">
 </head>
 <body class="h-screen overflow-auto overflow-x-hidden" >
-	<header class="bg-black text-white py-4" id="myheader">
+	<header class="bg-black text-white py-4 lg:h-48 flex" id="header">
 		<div class="container flex items-center justify-between mx-auto px-2">
 			<div class="flex  justify-start">
 				<h1 class="mb-2 md:mb-0 lg:text-4xl content-center">Welcome To My Page</h1>
 			</div>
 			
 
-			<div class="flex-inline justify-center w-32 h-32 mx-5 py-3 "> 
+			<div class="flex-inline justify-center w-32 h-32 mx-5 py-3 " id="myimg"> 
 				<img src="kar.jpg" class="rounded-full">
 			</div>
 
@@ -40,12 +40,12 @@
 		</div>
 	</header>
 	
-	<div class="parallax" style="background-attachment: fixed" >
-		<h1 class="anun content-center ">Karapet Mouradyan</h1>
+	<div class="parallax content-center" style="background-attachment: fixed" >
+		<h1 class="anun content-center mt-32">Karapet Mouradyan</h1>
 	</div>
 	
-	<div class="education">
-		<h2 class="ed text-black content-center my-10">
+	<div class="education" id="education">
+		<h2 class="ed text-black content-center">
 			Education
 		</h2>
 		<div class="flex w-screen my-16 justify-around">
@@ -70,22 +70,23 @@
 		</div>
 	</div>
 	
-	<div class="aboutme my-10">
-			<h2 class="ed text-black content-center">
-				About Me
-			</h2>
-	</div>
-	<div class="parallax1  flex justify-content" style="background-attachment: fixed">
-		<div class="m-auto">
-			<p class=" my-10 mx-10 md:text-4xl sm:text-3xl text-center text-white tracking-wide leading-loose">
-				Junior Front-End Developer. I am into Programming: Html, CSS, Javascript, React, currently studying for Master’s degree in Physics. I know Armenian, Russian, English. Have a problem-solving mindset and quantitative skills.
-			</p>	
-		</div>		
+	<div class="aboutme" id="about">
+		<h2 class="ed text-black content-center">
+			About Me
+		</h2>
+		<div class="parallax1  flex justify-content" style="background-attachment: fixed">
+			<div class="m-auto">
+				<p class=" my-10 mx-10 md:text-4xl sm:text-3xl text-center text-white tracking-wide leading-loose">
+					Junior Front-End Developer. I am into Programming: Html, CSS, Javascript, React, currently studying for Master’s degree in Physics. I know Armenian, Russian, English. Have a problem-solving mindset and quantitative skills.
+				</p>	
+			</div>		
+		</div>
 	</div>
 	
+	
 
-	<div class="contact">
-		<h2 class="ed text-black content-center my-10">
+	<div class="contact" id="contact">
+		<h2 class="ed text-black content-center">
 			Contact
 		</h2>
 		

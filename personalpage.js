@@ -1,85 +1,65 @@
-function smoothScroll(target,duration) {
-	let targ = document.querySelector(target);
-	let targetPosition = targ.getBoundingClientRect().top;
-	let startPosition = window.pageYOffset;
-	let distance = targetPosition - startPosition;
-	let startTime = null;
-	
-	function animation(currentTime) {
-		if(startTime === null) {
-			startTime = currentTime;
-		}
-		let timeElapsed = currentTime - startTime;
-		let run = easeInOutQuad(timeElapsed,startPosition,distance,duration);
-		window.scrollTo(0,run);
-		if(timeElapsed < duration) {
-			requestAnimationFrame(animation);
-		}
-	}
-	function  easeInOutQuad (t, b, c, d) {
-		t /= d/2;
-		if (t < 1) return c/2*t*t + b;
-		t--;
-		return -c/2 * (t*(t-2) - 1) + b;
-	};
-
-	requestAnimationFrame(animation);
-}
-
+let myheader = document.getElementById("header");
 let sectionEduc = document.querySelector('.sectionEd');
-
-sectionEduc.addEventListener('click', function() {
-	smoothScroll('.education',1000);
-});
-
-
 let sectionAbout = document.querySelector('.sectionAb');
+let sectionContact = document.querySelector('.sectionCon');
+let ed = document.getElementById("education");
+let ab = document.getElementById("about");
+let co = document.getElementById("contact");
+let body = document.body;
+let minheader ;
 
-sectionAbout.addEventListener('click', function() {
-	smoothScroll('.aboutme',1200);
+sectionEduc.addEventListener('click', function(event) {
+	event.preventDefault();
+	window.scrollTo({
+		top: ed.offsetTop-100,
+		behavior: "smooth"
+	});
 });
 
-let sectionContact = document.querySelector('.sectionCon');
+sectionAbout.addEventListener('click', function(event) {
+	event.preventDefault();
+	window.scrollTo({
+		top: ab.offsetTop-100,
+		behavior: "smooth"
+	});
+});
 
-sectionContact.addEventListener('click', function() {
-	smoothScroll('.contact',1500);
+sectionContact.addEventListener('click', function(event) {
+	event.preventDefault();
+	window.scrollTo({
+		top: co.offsetTop,
+		behavior: "smooth"
+	});
 });
 
 window.onbeforeunload = function () {
   window.scrollTo(0, 0);
 }
 
-/*
-window.onscroll = function() {scrollButton()};
 let x = document.querySelector(".scrollT");
 let listenscroll = false;
 
-function scrollButton() {
-	if(pageYOffset === 0) {
-		x.style.opacity = "0"; 
-		listenscroll = false;
-	}
-	if(window.pageYOffset > 350) {
-		listenscroll = true;
-		x.style.opacity = "0.5"; 
-		if(listenscroll) {
-			x.addEventListener("click",function() {
-				listenscroll = false;
-				smoothScroll("body",1500);
-			});
-		}
-		
-	}
-}
-*/
-let x = document.querySelector(".scrollT");
-let listenscroll = false;
+let scrolled = false;
+let myimg = document.getElementById("myimg");
 
 window.onscroll = function() {
+	if(!scrolled) {
+		myheader.style.height = "6rem";
+		myimg.style.height = "4rem";
+		myimg.style.width = "4rem";
+		scrolled = true;
+	}
+	if(scrolled && window.pageYOffset === 0 ) {
+		myheader.style.height = "12rem";
+		myimg.style.height = "8rem";
+		myimg.style.width = "8rem";
+		scrolled = false;
+	}
 	if(window.pageYOffset <= 300) {
 		x.style.opacity = "0"; 
 		listenscroll = false;
 		x.removeEventListener("click",listenScrollFunc);
+		
 	}
 	if( !listenscroll && window.pageYOffset > 300 ) {
 		listenscroll = true;
@@ -90,7 +70,10 @@ window.onscroll = function() {
 
 function listenScrollFunc() {
 	listenscroll = false;
-	smoothScroll("body",1500);
+	window.scrollTo({
+		top: body.offsetTop,
+		behavior: "smooth"
+	});
 }
 
 
