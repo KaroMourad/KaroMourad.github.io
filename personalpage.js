@@ -7,11 +7,13 @@ let ab = document.getElementById("about");
 let co = document.getElementById("contact");
 let body = document.body;
 let welcome = document.querySelector(".welcome");
+let hambMenu = document.querySelector(".hamburger-menu"); 
 
+console.log(myheader.height);
 sectionEduc.addEventListener('click', function(event) {
 	event.preventDefault();
 	window.scrollTo({
-		top: ed.offsetTop-100,
+		top: ed.offsetTop - 100,
 		behavior: "smooth"
 	});
 });
@@ -19,7 +21,7 @@ sectionEduc.addEventListener('click', function(event) {
 sectionAbout.addEventListener('click', function(event) {
 	event.preventDefault();
 	window.scrollTo({
-		top: ab.offsetTop-100,
+		top: ab.offsetTop - 100,
 		behavior: "smooth"
 	});
 });
@@ -27,7 +29,7 @@ sectionAbout.addEventListener('click', function(event) {
 sectionContact.addEventListener('click', function(event) {
 	event.preventDefault();
 	window.scrollTo({
-		top: co.offsetTop-100,
+		top: co.offsetTop - 100,
 		behavior: "smooth"
 	});
 });
@@ -52,15 +54,9 @@ let myimg = document.getElementById("myimg");
 
 window.onscroll = function() {
 	if(!scrolled) {
-		myheader.style.height = "6rem";
-		myimg.style.height = "4rem";
-		myimg.style.width = "4rem";
 		scrolled = true;
 	}
 	if(scrolled && window.pageYOffset === 0 ) {
-		myheader.style.height = "12rem";
-		myimg.style.height = "8rem";
-		myimg.style.width = "8rem";
 		scrolled = false;
 	}
 	if(window.pageYOffset <= 300) {
@@ -86,3 +82,13 @@ function listenScrollFunc() {
 
 
 
+function myFunction(x) {
+    x.classList.toggle("change");
+
+    if( hambMenu.style.display === "block" ) {
+    	hambMenu.style.display = "none";
+    }
+    else{
+    	hambMenu.style.display = "block";
+    }
+}

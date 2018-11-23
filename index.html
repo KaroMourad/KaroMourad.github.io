@@ -9,36 +9,39 @@
 	<link rel="stylesheet" href="personalpage.css">
 </head>
 <body class="h-screen overflow-auto overflow-x-hidden" >
-	<header class="bg-black text-white py-4 lg:h-48 flex" id="header">
-		<div class="container flex items-center justify-between mx-auto px-2">
-			<div class="flex justify-start">
-					<h1 class="welcome mb-2 md:mb-0 lg:text-4xl content-center">Welcome To My Page</h1>
-			</div>
+	<header class="bg-black text-white flex justify-center self-start" id="header">
+		<div class="container flex items-center justify-around mt-1 mx-3 content-center">
 			
-
-			<div class="flex-inline justify-center w-32 h-32 mx-5 py-3" id="myimg"> 
-				<img src="kar.jpg" class="rounded-full">
+			<div class="flex justify-center items-center h-auto" id="myimg"> 
+				<img src="kar.jpg" class="myimg rounded-full h-auto">
 			</div>
 
-			<ul class=" md:flex md:items-center justify-end list-reset lg:text-3xl md:text-xl">
-				<li class="md:ml-6">
-					<a class="sectionEd block no-underline py-2 md:py-0 text-white hover:text-grey-light ">
-						<p class="sec pulse">Education</p>
-					</a>
-				</li>
-				<li class="md:ml-6">
-					<a class="sectionAb block no-underline py-2 md:py-0 text-white hover:text-grey-light">
-						<p class="sec pulse">About Me</p>
-					</a>
-				</li>
-				<li class="md:ml-6">
-					<a class="sectionCon block no-underline py-2 md:py-0 text-white hover:text-grey-light">
-						<p class="sec pulse">Contact</p>
-					</a>
-				</li>
-			</ul>
+			<div class="flex justify-center">
+				<h1 class="welcome inline content-center flex justify-center">Welcome</h1>
+			</div>
+
+			<div class="navbar" onclick="myFunction(this)">
+  				<div class="bar1"></div>
+  				<div class="bar2"></div>
+ 				<div class="bar3"></div>
+			</div>
 		</div>
 	</header>
+
+	<div class="hamburger-menu h-screen w-full fixed items-center justify-center">
+		
+			<a class="axr sectionEd block no-underline text-white hover:text-grey-light ">
+				<p class="sec pulse text-5xl flex justify-center">Education</p>
+			</a>
+		
+			<a class="axr sectionAb block no-underline text-white hover:text-grey-light">
+				<p class="sec pulse text-5xl flex justify-center">About Me</p>
+			</a>
+		
+			<a class="axr sectionCon block no-underline text-white hover:text-grey-light">
+				<p class="sec pulse text-5xl flex justify-center">Contact</p>
+			</a>	
+	</div>
 	
 	<div class="parallax content-center bg-fixed ">
 		<h1 class="anun content-center">Karapet Mouradyan</h1>
@@ -48,7 +51,7 @@
 		<h2 class="ed text-black content-center">
 			Education
 		</h2>
-		<div class="flex w-screen my-16 justify-around">
+		<div class="flex w-screen my-10 justify-around">
 			<div class="contlogo mx-2 w-1/4 ">
 				<a href="http://fizmat.am/" class="no-underline text-black" target="_blank">
 					<img src="FizmatLogo.jpg" class="edlogo wig1 flex items-center m-auto xl:h-64 ">
@@ -99,13 +102,13 @@
 
 			<div class="block">
 				<a href="https://twitter.com/Karo70968982" class="no-underline " target="_blank">
-					<img src="twit.png" alt="https://twitter.com/Karo70968982" class="contacthov pulse1 my-10 mx-6 w-24 h-24 rounded-full">
+					<img src="twit.png" alt="https://twitter.com/Karo70968982" class="contacthov pulse1 my-10 mx-6  rounded-full">
 				</a>
 				<a href="https://github.com/KaroMourad" class="no-underline" target="_blank">
-					<img src="git0.png" alt="https://github.com/KaroMourad" class="contacthov pulse2 my-10 mx-6 w-24 h-24 rounded-full">
+					<img src="git0.png" alt="https://github.com/KaroMourad" class="contacthov pulse2 my-10 mx-6  rounded-full">
 				</a>
 				<a href="https://web.facebook.com/karo.muradyan.3" class="no-underline" target="_blank">
-					<img src="fb.png" alt="https://web.facebook.com/karo.muradyan.3" class="contacthov pulse3 my-10 mx-6 w-24 h-24 rounded-full">
+					<img src="fb.png" alt="https://web.facebook.com/karo.muradyan.3" class="contacthov pulse3 my-10 mx-6  rounded-full">
 				</a>
 			</div>
 		</div>
