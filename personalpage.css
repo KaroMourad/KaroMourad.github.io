@@ -69,11 +69,8 @@ h1,h2,.ed,h3 {
 	transition: 0.4s;
 }
 
-.contacthov:hover,.sec:hover,.contlogo:hover {
-	transform: scale(1.2);
-}
-.contacthovlit:hover{
-	transform: scale(1.15);
+.contacthov:hover,.sec:hover,.contlogo:hover,.contacthovlit:hover {
+	transform: scale(1.1);
 }
 .welcome:hover {
 	transform: scale(1.05);
