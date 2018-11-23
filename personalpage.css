@@ -24,7 +24,7 @@ h1,h2,.ed,h3 {
 	text-align: center;
 	color: white;
 	display: grid;
-	transform: translateY(8rem);
+	transform: translateY(7rem);
 }
 ::-webkit-scrollbar {
     width: .5rem;
@@ -231,6 +231,7 @@ header {
 
 .myimg {
 	width: 8vw;
+	height: 8vw;
 }
 
 .navbar {
@@ -245,7 +246,6 @@ header {
 	opacity:0.9;
 	z-index: 101;
 	display: none;
-	transition: 1s;
 }
 
 .axr{

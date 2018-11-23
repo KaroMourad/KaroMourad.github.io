@@ -9,7 +9,6 @@ let body = document.body;
 let welcome = document.querySelector(".welcome");
 let hambMenu = document.querySelector(".hamburger-menu"); 
 
-console.log(myheader.height);
 sectionEduc.addEventListener('click', function(event) {
 	event.preventDefault();
 	window.scrollTo({
