@@ -90,14 +90,17 @@ h1,h2,.ed,h3 {
 }
 
 .wig1 {
+	-webkit-animation: wiggle 21s infinite;
 	animation: wiggle 21s infinite;
 }
 
 .wig2 {
+	-webkit-animation: wiggle 15s infinite;
 	animation: wiggle 15s infinite;
 }
 
 .wig3 {
+	-webkit-animation: wiggle 11s infinite;
 	animation: wiggle 11s infinite;
 }
 
@@ -111,6 +114,7 @@ h1,h2,.ed,h3 {
 
 
 .pulse1 {
+	-webkit-animation: pulst 3s linear infinite;
 	animation: pulst 3s linear infinite;
 }
 
@@ -138,6 +142,7 @@ h1,h2,.ed,h3 {
 }
 
 .pulse3 {
+	-webkit-animation: pulsf 3s linear infinite;
 	animation: pulsf 3s linear infinite;
 }
 
@@ -165,6 +170,7 @@ h1,h2,.ed,h3 {
 }
 
 .pulse2 {
+	-webkit-animation: pulsg 3s linear infinite;
 	animation: pulsg 3s linear infinite;
 }
 
@@ -192,6 +198,7 @@ h1,h2,.ed,h3 {
 }
 
 .pulse {
+	-webkit-animation: puls 5s linear infinite;
 	animation: puls 5s linear infinite;
 }
 

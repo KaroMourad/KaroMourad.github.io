@@ -7,12 +7,17 @@ let ab = document.getElementById("about");
 let co = document.getElementById("contact");
 let body = document.body;
 let welcome = document.querySelector(".welcome");
-let hambMenu = document.querySelector(".hamburger-menu"); 
+let hambMenu = document.querySelector(".hamburger-menu");
+
+
+let heightOfHeader = myheader.getBoundingClientRect();
+
+
 
 sectionEduc.addEventListener('click', function(event) {
 	event.preventDefault();
 	window.scrollTo({
-		top: ed.offsetTop - 100,
+		top: ed.offsetTop - heightOfHeader.height,
 		behavior: "smooth"
 	});
 });
@@ -20,7 +25,7 @@ sectionEduc.addEventListener('click', function(event) {
 sectionAbout.addEventListener('click', function(event) {
 	event.preventDefault();
 	window.scrollTo({
-		top: ab.offsetTop - 100,
+		top: ab.offsetTop - heightOfHeader.height,
 		behavior: "smooth"
 	});
 });
@@ -28,7 +33,7 @@ sectionAbout.addEventListener('click', function(event) {
 sectionContact.addEventListener('click', function(event) {
 	event.preventDefault();
 	window.scrollTo({
-		top: co.offsetTop - 100,
+		top: co.offsetTop - heightOfHeader.height,
 		behavior: "smooth"
 	});
 });
