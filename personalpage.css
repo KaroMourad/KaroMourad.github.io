@@ -118,26 +118,26 @@ h1,h2,.ed,h3 {
 	animation: pulst 3s linear infinite;
 }
 
-@keyframes pulst {
+@-webkit-keyframes pulst {
 	0% {
-		box-shadow: 0 0 0 0 rgb(128, 159, 255,.7),0 0 0 0 rgb(128, 159, 255,.7);
 		-webkit-box-shadow: 0 0 0 0 rgb(128, 159, 255,.7),0 0 0 0 rgb(128, 159, 255,.7);
 		-moz-box-shadow: 0 0 0 0 rgb(128, 159, 255,.7),0 0 0 0 rgb(128, 159, 255,.7);
+		box-shadow: 0 0 0 0 rgb(128, 159, 255,.7),0 0 0 0 rgb(128, 159, 255,.7);
 	}
 	40% {
-		box-shadow: 0 0 0 30px rgb(128, 159, 255,0),0 0 0 0 rgb(128, 159, 255,.7);
 		-webkit-box-shadow: 0 0 0 30px rgb(128, 159, 255,0),0 0 0 0 rgb(128, 159, 255,.7);
 		-moz-box-shadow: 0 0 0 30px rgb(128, 159, 255,0),0 0 0 0 rgb(128, 159, 255,.7);
+		box-shadow: 0 0 0 30px rgb(128, 159, 255,0),0 0 0 0 rgb(128, 159, 255,.7);
 	}
 	80% {
-		box-shadow: 0 0 0 30px rgb(128, 159, 255,0),0 0 0 20px rgb(128, 159, 255,0);
 		-webkit-box-shadow: 0 0 0 30px rgb(128, 159, 255,0),0 0 0 20px rgb(128, 159, 255,0);
 		-moz-box-shadow: 0 0 0 30px rgb(128, 159, 255,0),0 0 0 20px rgb(128, 159, 255,0);
+		box-shadow: 0 0 0 30px rgb(128, 159, 255,0),0 0 0 20px rgb(128, 159, 255,0);
 	}
 	100% {
-		box-shadow: 0 0 0 0 rgb(128, 159, 255,0),0 0 0 20px rgb(128, 159, 255,0);
 		-webkit-box-shadow: 0 0 0 0 rgb(128, 159, 255,0),0 0 0 20px rgb(128, 159, 255,0);
 		-moz-box-shadow: 0 0 0 0 rgb(128, 159, 255,0),0 0 0 20px rgb(128, 159, 255,0);
+		box-shadow: 0 0 0 0 rgb(128, 159, 255,0),0 0 0 20px rgb(128, 159, 255,0);
 	}
 }
 
@@ -146,26 +146,26 @@ h1,h2,.ed,h3 {
 	animation: pulsf 3s linear infinite;
 }
 
-@keyframes pulsf {
+@-webkit-keyframes pulsf {
 	0% {
-		box-shadow: 0 0 0 0 rgb(0, 64, 255,.7),0 0 0 0 rgb(0, 64, 255,.7);
 		-webkit-box-shadow: 0 0 0 0 rgb(0, 64, 255,.7),0 0 0 0 rgb(0, 64, 255,.7);
 		-moz-box-shadow: 0 0 0 0 rgb(0, 64, 255,.7),0 0 0 0 rgb(0, 64, 255,.7);
+		box-shadow: 0 0 0 0 rgb(0, 64, 255,.7),0 0 0 0 rgb(0, 64, 255,.7);
 	}
 	40% {
-		box-shadow: 0 0 0 30px rgb(0, 64, 255,0),0 0 0 0 rgb(0, 64, 255,.7);
 		-webkit-box-shadow: 0 0 0 30px rgb(0, 64, 255,0),0 0 0 0 rgb(0, 64, 255,.7);
 		-moz-box-shadow: 0 0 0 30px rgb(0, 64, 255,0),0 0 0 0 rgb(0, 64, 255,.7);
+		box-shadow: 0 0 0 30px rgb(0, 64, 255,0),0 0 0 0 rgb(0, 64, 255,.7);
 	}
 	80% {
-		box-shadow: 0 0 0 30px rgb(0, 64, 255,0),0 0 0 20px rgb(0, 64, 255,0);
 		-webkit-box-shadow: 0 0 0 30px rgb(0, 64, 255,0),0 0 0 20px rgb(0, 64, 255,0);
 		-moz-box-shadow: 0 0 0 30px rgb(0, 64, 255,0),0 0 0 20px rgb(0, 64, 255,0);
+		box-shadow: 0 0 0 30px rgb(0, 64, 255,0),0 0 0 20px rgb(0, 64, 255,0);
 	}
 	100% {
-		box-shadow: 0 0 0 0 rgb(0, 64, 255,0),0 0 0 20px rgb(0, 64, 255,0);
 		-webkit-box-shadow: 0 0 0 0 rgb(0, 64, 255,0),0 0 0 20px rgb(0, 64, 255,0);
 		-moz-box-shadow: 0 0 0 0 rgb(0, 64, 255,0),0 0 0 20px rgb(0, 64, 255,0);
+		box-shadow: 0 0 0 0 rgb(0, 64, 255,0),0 0 0 20px rgb(0, 64, 255,0);
 	}
 }
 
@@ -174,26 +174,26 @@ h1,h2,.ed,h3 {
 	animation: pulsg 3s linear infinite;
 }
 
-@keyframes pulsg {
+@-webkit-keyframes pulsg {
 	0% {
-		box-shadow: 0 0 0 0 rgb(143, 0, 179,.7),0 0 0 0 rgb(143, 0, 179,.7);
 		-webkit-box-shadow: 0 0 0 0 rgb(143, 0, 179,.7),0 0 0 0 rgb(143, 0, 179,.7);
 		-moz-box-shadow: 0 0 0 0 rgb(143, 0, 179,.7),0 0 0 0 rgb(143, 0, 179,.7);
+		box-shadow: 0 0 0 0 rgb(143, 0, 179,.7),0 0 0 0 rgb(143, 0, 179,.7);
 	}
 	40% {
-		box-shadow: 0 0 0 30px rgb(143, 0, 179,0),0 0 0 0 rgb(143, 0, 179,.7);
 		-webkit-box-shadow: 0 0 0 30px rgb(143, 0, 179,0),0 0 0 0 rgb(143, 0, 179,.7);
 		-moz-box-shadow: 0 0 0 30px rgb(143, 0, 179,0),0 0 0 0 rgb(143, 0, 179,.7);
+		box-shadow: 0 0 0 30px rgb(143, 0, 179,0),0 0 0 0 rgb(143, 0, 179,.7);
 	}
 	80% {
-		box-shadow: 0 0 0 30px rgb(143, 0, 179,0),0 0 0 20px rgb(143, 0, 179,0);
 		-webkit-box-shadow: 0 0 0 30px rgb(143, 0, 179,0),0 0 0 20px rgb(143, 0, 179,0);
 		-moz-box-shadow: 0 0 0 30px rgb(143, 0, 179,0),0 0 0 20px rgb(143, 0, 179,0);
+		box-shadow: 0 0 0 30px rgb(143, 0, 179,0),0 0 0 20px rgb(143, 0, 179,0);
 	}
 	100% {
-		box-shadow: 0 0 0 0 rgb(143, 0, 179,0),0 0 0 20px rgb(143, 0, 179,0);
 		-webkit-box-shadow: 0 0 0 0 rgb(143, 0, 179,0),0 0 0 20px rgb(143, 0, 179,0);
 		-moz-box-shadow: 0 0 0 0 rgb(143, 0, 179,0),0 0 0 20px rgb(143, 0, 179,0);
+		box-shadow: 0 0 0 0 rgb(143, 0, 179,0),0 0 0 20px rgb(143, 0, 179,0);
 	}
 }
 
@@ -202,26 +202,26 @@ h1,h2,.ed,h3 {
 	animation: puls 5s linear infinite;
 }
 
-@keyframes puls {
+@-webkit-keyframes puls {
 	0% {
-		box-shadow: 0 0 0 0 rgb(128, 159, 255,0),0 0 0 0 rgb(128, 159, 255,0);
 		-webkit-box-shadow: 0 0 0 0 rgb(128, 159, 255,0),0 0 0 0 rgb(128, 159, 255,0);
 		-moz-box-shadow: 0 0 0 0 rgb(128, 159, 255,0),0 0 0 0 rgb(128, 159, 255,0);
+		box-shadow: 0 0 0 0 rgb(128, 159, 255,0),0 0 0 0 rgb(128, 159, 255,0);
 	}
 	50% {
-		box-shadow: 0 0 0 30px rgb(128, 159, 255,0),0 0 0 0 rgb(128, 159, 255,.7);
 		-webkit-box-shadow: 0 0 0 30px rgb(128, 159, 255,0),0 0 0 0 rgb(128, 159, 255,.7);
 		-moz-box-shadow: 0 0 0 30px rgb(128, 159, 255,0),0 0 0 0 rgb(128, 159, 255,.7);
+		box-shadow: 0 0 0 30px rgb(128, 159, 255,0),0 0 0 0 rgb(128, 159, 255,.7);
 	}
 	70% {
-		box-shadow: 0 0 0 30px rgb(128, 159, 255,0),0 0 0 20px rgb(128, 159, 255,0);
 		-webkit-box-shadow: 0 0 0 30px rgb(128, 159, 255,0),0 0 0 20px rgb(128, 159, 255,0);
 		-moz-box-shadow: 0 0 0 30px rgb(128, 159, 255,0),0 0 0 20px rgb(128, 159, 255,0);
+		box-shadow: 0 0 0 30px rgb(128, 159, 255,0),0 0 0 20px rgb(128, 159, 255,0);
 	}
 	100% {
-		box-shadow: 0 0 0 0 rgb(128, 159, 255,0),0 0 0 20px rgb(128, 159, 255,0);
 		-webkit-box-shadow: 0 0 0 0 rgb(128, 159, 255,0),0 0 0 20px rgb(128, 159, 255,0);
 		-moz-box-shadow: 0 0 0 0 rgb(128, 159, 255,0),0 0 0 20px rgb(128, 159, 255,0);
+		box-shadow: 0 0 0 0 rgb(128, 159, 255,0),0 0 0 20px rgb(128, 159, 255,0);
 	}
 }
 

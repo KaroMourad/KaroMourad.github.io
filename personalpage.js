@@ -8,8 +8,6 @@ let co = document.getElementById("contact");
 let body = document.body;
 let welcome = document.querySelector(".welcome");
 let hambMenu = document.querySelector(".hamburger-menu");
-
-
 let heightOfHeader = myheader.getBoundingClientRect();
 
 
